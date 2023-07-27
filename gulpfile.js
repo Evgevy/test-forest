@@ -44,8 +44,7 @@ function building() {
         'app/css/style.min.css',
         'app/images/*.*',
         'app/js/main.min.js',
-        'app/**/*.html',
-        'app/libs/**'
+        'app/**/*.html'
     ], {base : 'app'})
     .pipe(dest('dist'))
 }
